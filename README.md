@@ -5,7 +5,7 @@
 ```bash
 go env -w GOBIN=$HOME/go/bin
 ```
-3. From this folder, install (compile) the module. As defined in [go.mod](./go.mod), the install command will compile an executable named `backend` in your `$GOBIN`.
+3. From this folder, install (compile) the module. As defined in [go.mod](./go.mod), the install command will compile an executable named `mycookingapp-backend` in your `$GOBIN`.
 or
 ```bash
 go install .
@@ -24,5 +24,5 @@ setx PATH "%PATH%;%USERPROFILE%\go\bin"
 
 4. Run the executable. 
 ```bash
-backend
+mycookingapp-backend
 ```
